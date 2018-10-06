@@ -1,0 +1,72 @@
+
+body{
+  padding-top:80px;
+}
+
+.fa{
+  color: #28cfd7;
+}
+
+.welcome {
+  align-content: center;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+.results{
+  max-height: 87vh;
+  overflow: scroll
+}
+
+
+#map {
+  height: 87vh;
+  width: 100%;
+  background-color: grey;
+  position: relative;
+  margin: auto 0;
+}
+/* Optional: Makes the sample page fill the window. */
+
+.icon-center{
+  margin:0 auto;
+}
+
+.features{
+  display: inline;
+  text-align: center;
+}
+
+.navbar-nav li.nav-item a.nav-link {
+  color: #ffffff;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+  color: #006cff;
+}
+
+.navbar-nav li.nav-item a.nav-link.active {
+  color: #006cff;
+}
+
+#submitNewSpace {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding: 5px 10px;
+  font-size: 17px;
+  background-color: #006cff;
+  color: white;
+	border-radius: 5px;
+}
+
+#submitNewSpace:hover{
+	background-color:white;
+	color: #006cff;
+}
+
+.pointsCenter{
+  list-style: none;
+}

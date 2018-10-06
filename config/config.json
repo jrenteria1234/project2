@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "rentMySpace",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port": "8889"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "testdb",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "production": {
+    "host": "gtizpe105piw2gfq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "username": "n8mhad5eoapqu2ax",
+    "password": "f3740hj7rba7bihi",
+    "database": "a3tf3f99ncthdkv3",
+    "port": "3306"
+  }
+}
